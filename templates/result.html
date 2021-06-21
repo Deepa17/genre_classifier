@@ -1,0 +1,14 @@
+{% block content %}
+
+<h2>Genre Classifier</h2>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<div style="flex-grow: 10">
+    <h2 style = "color: seagreen"><b>Predicted Genre:</b> {{result}}</h2>
+</div>
+
+<br/>
+    <a href="/">
+        <button type="button" class="btn btn-dark"> PREDICT AGAIN</button>
+    </a>
+{%endblock%}
